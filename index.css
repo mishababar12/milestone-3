@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6d0323;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(245, 211, 232);
+    
+
+}
+
+legend {
+    font-weight: bold;
+    color: #c42393;
+    padding: 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: 2px solid rgb(247, 235, 241);
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e27ac3;
+    color: #18010c;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #961464;
+}
+.resume-output-hidden {
+    display: none;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  /* Resume Output Container */
+.resume {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #cfecee;
+    border: 1px solid #b3e4ec;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styles */
+.resume h2 {
+    text-align: left;
+    color: #640230;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+.resume h3 {
+    color: #69093e;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/* Profile Picture */
+.profile-picture {
+    display: block;
+    margin: 10px auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #da62a8;
+}
+
+/* Text Styling */
+.resume p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Bold Labels */
+.resume p strong {
+    color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .resume {
+        padding: 15px;
+    }
+
+    .resume h2 {
+        font-size: 24px;
+    }
+
+    .resume h3 {
+        font-size: 18px;
+    }
+
+    .resume p {
+        font-size: 15px;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+    }
+}
